@@ -14,10 +14,11 @@ namespace PieChartOtherSliceExample
 
             dashboardViewer1.ConfigureDataConnection += dashboardViewer1_ConfigureDataConnection;
             dashboardViewer1.MasterFilterSet += dashboardViewer1_MasterFilterSet;
+            dashboardViewer1.MasterFilterCleared += DashboardViewer1_MasterFilterCleared;
 
             dashboardViewer1.LoadDashboard("Dashboard.xml");
-
         }
+
 
         private void dashboardViewer1_MasterFilterSet(object sender, MasterFilterSetEventArgs e)
         {
@@ -25,8 +26,7 @@ namespace PieChartOtherSliceExample
 
             if (e.DashboardItemName == "gridDashboardItem1") {
                 var stringValues = e.SelectedValues.Select(value => value[1].ToString());
-                foreach (string selValue in stringValues)
-                    viewer.Parameters["ParamSalesPerson"].SelectedValues = stringValues;
+                viewer.Parameters["ParamSalesPerson"].SelectedValues = stringValues;
             }
             if(e.DashboardItemName == "rangeFilterDashboardItem1")
             {
@@ -35,6 +35,12 @@ namespace PieChartOtherSliceExample
             }
         }
 
+        private void DashboardViewer1_MasterFilterCleared(object sender, MasterFilterClearedEventArgs e)
+        {
+            DashboardViewer viewer = (DashboardViewer)sender;
+            foreach (var p in viewer.Parameters.ToList())
+                p.SelectedValues = null; ;
+        }
         private void dashboardViewer1_ConfigureDataConnection(object sender, DashboardConfigureDataConnectionEventArgs e)
         {
             ExtractDataSourceConnectionParameters parameters = e.ConnectionParameters as ExtractDataSourceConnectionParameters;
