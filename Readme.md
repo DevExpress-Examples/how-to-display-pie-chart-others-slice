@@ -18,3 +18,5 @@ The dashboard is designed as follows:
 
 When a user selects a row in the Grid, the [MasterFilterSet](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWin.DashboardViewer.MasterFilterSet) event occurs. The code in the event handler obtains filter values and assigns them to the dashboard parameters.
 When the user executes the Clear Master Filter command, the [MasterFilterCleared](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWin.DashboardViewer.MasterFilterCleared) event occurs. The event is handled to clear parameters by assigning _null_ to the parameter's [SelectedValues](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWin.DashboardParameterDescriptor.SelectedValues).
+
+> Another approach to perform the same task involves a custom visual interactivity instead of Master Filtering. Review the [Custom Visual Interactivity to Display the Others Slice in the Pie Chart](https://github.com/DevExpress-Examples/custom-visual-interactivity-to-display-pie-chart-others-slice) example for more information.
