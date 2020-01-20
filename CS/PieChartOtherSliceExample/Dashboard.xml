@@ -7,7 +7,7 @@
         <CalculatedField Name="OthersChartSalesPerson" Expression="Iif([Parameters.ParamSalesPerson] Is Null, [Sales Person], Iif([Sales Person] In ([Parameters.ParamSalesPerson]), [Sales Person], 'Others'))" DataType="Auto" />
         <CalculatedField Name="ChartRangeExtPrice" Expression="Iif([Parameters.ParamRangeStart] Is Null, [Extended Price], Iif([OrderDate] Between([Parameters.ParamRangeStart], [Parameters.ParamRangeEnd]), [Extended Price], 0))" DataType="Auto" />
       </CalculatedFields>
-      <FileName>C:\Data\SalesPerson.dat</FileName>
+      <FileName>SalesPerson.dat</FileName>
       <Parameters />
       <SavedSchema>
         <Column>
