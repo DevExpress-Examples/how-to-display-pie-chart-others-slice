@@ -20,3 +20,9 @@ When a user selects a row in the Grid, the [MasterFilterSet](https://docs.devexp
 When the user executes the Clear Master Filter command, the [MasterFilterCleared](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWin.DashboardViewer.MasterFilterCleared) event occurs. The event is handled to clear parameters by assigning _null_ to the parameter's [SelectedValues](https://docs.devexpress.com/Dashboard/DevExpress.DashboardWin.DashboardParameterDescriptor.SelectedValues).
 
 > Another approach to perform the same task involves a custom visual interactivity instead of Master Filtering. Review the [Custom Visual Interactivity to Display the Others Slice in the Pie Chart](https://github.com/DevExpress-Examples/custom-visual-interactivity-to-display-pie-chart-others-slice) example for more information.
+
+## Documentation
+
+- [WinForms Dashboard Viewer](https://docs.devexpress.com/Dashboard/117122)
+- [Interactivity](https://docs.devexpress.com/Dashboard/116692)
+- [Pies](https://docs.devexpress.com/Dashboard/15262)
