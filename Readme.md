@@ -7,7 +7,7 @@
 
 This example demonstrates the Pie Chart that displays slices for data rows selected in the Grid, while unselected data comprises the Others slice.
 
-![screenshot](https://github.com/DevExpress-Examples/how-to-display-pie-chart-others-slice/blob/18.2.4%2B/images/screenshot.png)
+![screenshot](./images/screenshot.png)
 
 The dashboard is designed as follows:
 
