@@ -28,7 +28,7 @@ When the user executes the Clear Master Filter command, the [MasterFilterCleared
 
 ## Files to Review
 
-[Form1.cs](./CS/PieChartOtherSliceExample/Form1.cs)/[Form1.vb](./VB/PieChartOtherSliceExample/Form1.vb)  
+[Form1.cs](./CS/PieChartOtherSliceExample/Form1.cs) / [Form1.vb](./VB/PieChartOtherSliceExample/Form1.vb)  
 
 ## Documentation
 
