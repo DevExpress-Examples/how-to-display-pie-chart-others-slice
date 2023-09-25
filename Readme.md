@@ -26,6 +26,10 @@ When the user executes the Clear Master Filter command, the [MasterFilterCleared
 
 > Another approach to perform the same task involves a custom visual interactivity instead of Master Filtering. Review the [Custom Visual Interactivity to Display the Others Slice in the Pie Chart](https://github.com/DevExpress-Examples/custom-visual-interactivity-to-display-pie-chart-others-slice) example for more information.
 
+## Files to Review
+
+[Form1.cs](./CS/PieChartOtherSliceExample/Form1.cs)/[Form1.vb](./VB/PieChartOtherSliceExample/Form1.vb)  
+
 ## Documentation
 
 - [WinForms Dashboard Viewer](https://docs.devexpress.com/Dashboard/117122)
