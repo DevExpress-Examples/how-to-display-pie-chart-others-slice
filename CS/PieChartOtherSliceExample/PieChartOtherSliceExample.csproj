@@ -36,7 +36,7 @@
   <ItemGroup>
     <Reference Include="DevExpress.Charts.v24.2.Core" />
     <Reference Include="DevExpress.Dashboard.v24.2.Core" />
-    <Reference Include="DevExpress.Dashboard.v24.2.Win, Version=24.2.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
+    <Reference Include="DevExpress.Dashboard.v24.2.Win, Version=24.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
     </Reference>
     <Reference Include="DevExpress.Drawing.v24.2" />
